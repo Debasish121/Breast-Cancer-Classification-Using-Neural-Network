@@ -13,11 +13,11 @@ import streamlit as st
 
 
 # Loading the Saved Model
-loaded_model = load_model('D:/Debasish/ML/Projects/Breast Cancer Classification/trained_model.h5')
+loaded_model = load_model('trained_model.h5')
 
 
 # Loading saved StandardScaler model
-loaded_scaler = pickle.load(open('D:/Debasish/ML/Projects/Breast Cancer Classification/scaler.pkl', 'rb'))
+loaded_scaler = pickle.load(open('scaler.pkl', 'rb'))
 
 
 
